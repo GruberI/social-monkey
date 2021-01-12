@@ -10,7 +10,7 @@ export default function Navbar() {
       <p>SocialMonkey</p>
 
       {user ? (
-        <img className="navbar__img" src={user.photoURL} />
+        <img className="navbar__img" src={user.photoURL} alt="img"/>
       ) : (
         <SignInBtn />
       )}

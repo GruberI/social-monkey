@@ -59,8 +59,14 @@ export default function CreatePost() {
                 photoUrl: imageUrl,
                 username: user.email.replace("@gmail.com", ""),
                 profileUrl: user.photoURL,
-            })
-          })
+            });
+          });
+
+          setCaption("");
+          setProgress(0);
+          setImage(null);
+
+          document.getElementById("image-preview").style.display = "none"
         }
       );
     }
@@ -103,7 +109,7 @@ export default function CreatePost() {
               onClick={handleUpload}
               style={{ color: caption ? "#000" : "lightgrey" }}
             >
-              {`Upload ${progress != 0 ? progress : ""}`}
+              {`Upload ${progress !== 0 ? progress : ""}`}
             </button>
           </div>
         </div>
