@@ -7,7 +7,7 @@ export default function Navbar() {
   const [user, setUser] = useContext(UserContext).user;
   return (
     <div className="navbar">
-      <p>SocialMonkey</p>
+      <p className="navbar__title">SocialMonkey</p>
 
       {user ? (
         <img className="navbar__img" src={user.photoURL} alt="img"/>

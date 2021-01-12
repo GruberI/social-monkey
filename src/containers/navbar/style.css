@@ -2,10 +2,16 @@
     display: flex;
     justify-content: space-between;
     padding: 12px 24px;
-    background-color: white;
+    background-color: #276651;
 }
 
 .navbar__img {
     height: 35px;
     border-radius: 8px;
+}
+
+.navbar__title {
+    color: white;
+    padding-top: 2px;
+    font-size: 20px;
 }
