@@ -1,13 +1,13 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBxRP6I0CuftxM0EYpwGLcQFluy4lfV9cE",
-    authDomain: "socialmonkey-19a6c.firebaseapp.com",
-    projectId: "socialmonkey-19a6c",
-    storageBucket: "socialmonkey-19a6c.appspot.com",
-    messagingSenderId: "923036007890",
-    appId: "1:923036007890:web:e89711f7bca9b3ea3c5c0b"
-  };
+  apiKey: "AIzaSyC9LEx5kXkZYxuhjUA9TMYn6BcOWXfgM4w",
+  authDomain: "socialmonkey1-2d913.firebaseapp.com",
+  projectId: "socialmonkey1-2d913",
+  storageBucket: "socialmonkey1-2d913.appspot.com",
+  messagingSenderId: "541475380801",
+  appId: "1:541475380801:web:1d980234e5d8ead65270c0"
+};
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
 
