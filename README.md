@@ -1,8 +1,24 @@
-# Getting Started with Create React App
+# SocialMonkey
+
+This is a full stack social media app built with React and Firebase. 
+
+![Home View](./public/images/social-home.png)
+
+## Demo
+
+Here is a working demo: https://socialmonkey1-2d913.web.app/
+
+### Features
+* Firebase Auth with Google SignIn
+* CRUD images, posts and comments
+* Firebase database storage
+* Firebase hosting
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
